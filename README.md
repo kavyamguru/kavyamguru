@@ -1,37 +1,37 @@
 # Kavya G
 
-Bioinformatics-focused researcher/developer working on computational microbiome analysis, metagenomics workflows, and reproducible scientific pipelines.
+Bioinformatics-focused researcher/developer working on microbiome analytics, metagenomics workflows, and reproducible computational biology pipelines.
 
-## Core Areas
+## Focus Areas
 - Metagenomics and microbiome data analysis
-- Workflow engineering (Nextflow, Linux, Git)
-- Reproducible computational biology pipelines
+- Pipeline development and workflow engineering (Nextflow)
+- Reproducible research tooling for scientific teams
 
 ## Technical Stack
 **Languages:** Python, R, Bash, SQL  
-**Workflow/Infra:** Nextflow (DSL2), Docker, Slurm, Linux, Git/GitHub  
-**Bioinformatics:** QIIME2, MetaPhlAn4, Kraken2/Bracken, HUMAnN3, DRAM2
+**Workflow/Infrastructure:** Nextflow DSL2, Docker, Slurm, Linux, Git/GitHub  
+**Bioinformatics Tools:** QIIME2, MetaPhlAn4, Kraken2/Bracken, HUMAnN3, DRAM2, DESeq2
 
-## Selected Projects
+## Selected Repositories
 - **MSc_Dissertation_Kvass**  
-  Integrated 16S rRNA and shotgun metagenomic analysis of sourdough-based kvass fermentation with reproducible workflows and structured outputs.  
+  Integrated 16S + shotgun metagenomics workflow with structured, reproducible outputs.  
   https://github.com/kavyamguru/MSc_Dissertation_Kvass
 
 - **elaniti-nextflow-metagenomics**  
-  Modular Nextflow DSL2 metagenomics pipeline with containerized execution and HPC compatibility.  
+  Modular Nextflow pipeline for reproducible metagenomics processing across local/HPC environments.  
   https://github.com/kavyamguru/elaniti-nextflow-metagenomics
 
 - **BioDB_SQL_API_Project**  
-  Integration of Ensembl, UniProt, KEGG, and miRBase using R, SQL, and API pipelines.  
+  R + SQL + API integration of Ensembl/UniProt/KEGG/miRBase into queryable structures.  
   https://github.com/kavyamguru/BioDB_SQL_API_Project
 
-- **LabHelpr**  
-  Deployed life-science calculator platform; designed and shipped modular tools for wet-lab workflows with iterative user-driven improvements.  
-  https://github.com/kavyamguru/LabHelpr
+- **RNAseq_Isl1_Knockout**  
+  RNA-seq differential expression and pathway analysis workflow (DESeq2 + fgsea).  
+  https://github.com/kavyamguru/RNAseq_Isl1_Knockout
+
+## Career Goal
+Seeking bioinformatics opportunities in microbiome/metagenomics analysis and production-grade scientific workflow development.
 
 ## Profiles
 - LinkedIn: https://www.linkedin.com/in/kavyamg
 - GitHub: https://github.com/kavyamguru
-
-## Current Goal
-Seeking Bioinformatics opportunities (internships/entry roles) with emphasis on microbiome and metagenomics pipeline development.

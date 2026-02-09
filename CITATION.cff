@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "kavyamguru-profile"
+message: "If you reference this profile portfolio, please cite this repository."
+type: software
+authors:
+  - family-names: "G"
+    given-names: "Kavya"
+repository-code: "https://github.com/kavyamguru/kavyamguru"
