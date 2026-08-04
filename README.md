@@ -1,37 +1,59 @@
-# Kavya G
+# Kavya Manjula Gurubasavaiah
 
-Bioinformatics-focused researcher/developer working on microbiome analytics, metagenomics workflows, and reproducible computational biology pipelines.
+MSc Bioinformatics (University of Edinburgh) — computational biology, metagenomics, and
+evaluation of AI systems on biological reasoning tasks.
+
+I work across three connected areas: microbiome and transcriptomic data analysis, reproducible
+workflow engineering, and structured evaluation of model outputs for scientific correctness.
 
 ## Focus Areas
-- Metagenomics and microbiome data analysis
-- Pipeline development and workflow engineering (Nextflow)
-- Reproducible research tooling for scientific teams
+- Metagenomics and microbiome data analysis (taxonomic + functional profiling)
+- RNA-seq differential expression and pathway interpretation
+- Reproducible workflow engineering (Bash/HPC, Nextflow DSL2)
+- Evaluation of AI model outputs on biological and analytical reasoning tasks
 
 ## Technical Stack
-**Languages:** Python, R, Bash, SQL  
-**Workflow/Infrastructure:** Nextflow DSL2, Docker, Slurm, Linux, Git/GitHub  
-**Bioinformatics Tools:** QIIME2, MetaPhlAn4, Kraken2/Bracken, HUMAnN3, DRAM2, DESeq2
+**Languages:** Python, R, Bash, SQL, TypeScript
+**Workflow & Infrastructure:** Linux, HPC (Slurm), Nextflow DSL2, Git/GitHub, Conda
+**Bioinformatics:** QIIME2, MetaPhlAn4, Kraken2/Bracken, Kaiju, HUMAnN3, DRAM2, DESeq2, MEGAHIT
+**Analysis:** diversity/ordination (PCoA, NMDS, PERMANOVA), differential abundance, hypothesis
+testing and multiple-testing correction
 
-## Selected Repositories
-- **MSc_Dissertation_Kvass**  
-  Integrated 16S + shotgun metagenomics workflow with structured, reproducible outputs.  
-  https://github.com/kavyamguru/MSc_Dissertation_Kvass
+## Selected Work
 
-- **elaniti-nextflow-metagenomics**  
-  Modular Nextflow pipeline for reproducible metagenomics processing across local/HPC environments.  
-  https://github.com/kavyamguru/elaniti-nextflow-metagenomics
+- **[MSc_Dissertation_Kvass](https://github.com/kavyamguru/MSc_Dissertation_Kvass)**
+  Integrated 16S + shotgun metagenomics analysis of sourdough-based kvass fermentation.
+  Four taxonomic profilers (QIIME2, MetaPhlAn4, Kraken2/Bracken, Kaiju) run in parallel and
+  compared for agreement, plus functional profiling via HUMAnN3 and DRAM2. Per-tool
+  documentation, versioned manifests, and reproducible outputs.
 
-- **BioDB_SQL_API_Project**  
-  R + SQL + API integration of Ensembl/UniProt/KEGG/miRBase into queryable structures.  
-  https://github.com/kavyamguru/BioDB_SQL_API_Project
+- **[LabHelpr](https://www.labhelpr.com/)** — live · [source](https://github.com/kavyamguru/labhelpr-app)
+  Deployed web platform for wet-lab scientists: 13 experimental calculators, a statistics module
+  with assumption checking, and an offline-capable electronic lab notebook.
 
-- **RNAseq_Isl1_Knockout**  
-  RNA-seq differential expression and pathway analysis workflow (DESeq2 + fgsea).  
-  https://github.com/kavyamguru/RNAseq_Isl1_Knockout
+- **[RNAseq_Isl1_Knockout](https://github.com/kavyamguru/msc-coursework/tree/main/RNAseq_Isl1_Knockout)**
+  RNA-seq differential expression and pathway analysis in R, with QC, figures, and full report.
 
-## Career Goal
-Seeking bioinformatics opportunities in microbiome/metagenomics analysis and production-grade scientific workflow development.
+- **[Web_Bioinformatics_Tool](https://github.com/kavyamguru/msc-coursework/tree/main/Web_Bioinformatics_Tool)**
+  Multi-user web application for protein sequence retrieval, alignment, and motif scanning,
+  with account handling and persistent job history.
 
-## Profiles
+- **[BioDB_SQL_API_Project](https://github.com/kavyamguru/msc-coursework/tree/main/BioDB_SQL_API_Project)**
+  R + SQL integration of Ensembl, UniProt, KEGG and miRBase into queryable structures.
+
+- **[elaniti-nextflow-metagenomics](https://github.com/kavyamguru/elaniti-nextflow-metagenomics)**
+  Modular Nextflow DSL2 scaffold demonstrating pipeline structure, parameterised runs, and
+  portability across local, container, and Slurm execution. Proof-of-concept scope.
+
+- **[msc-coursework](https://github.com/kavyamguru/msc-coursework)**
+  Collected MSc project work: scripting and HPC tooling, genomics, systems biology, and
+  R-based data science.
+
+## Currently
+Bioinformatics and AI-evaluation contract work — designing and validating deterministic
+computational biology tasks, and assessing model outputs for factual accuracy, analytical
+reasoning, and reproducibility.
+
+## Contact
 - LinkedIn: https://www.linkedin.com/in/kavyamg
-- GitHub: https://github.com/kavyamguru
+- Email: mgkavya6@gmail.com
