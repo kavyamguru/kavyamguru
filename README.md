@@ -27,6 +27,13 @@ testing and multiple-testing correction
   compared for agreement, plus functional profiling via HUMAnN3 and DRAM2. Per-tool
   documentation, versioned manifests, and reproducible outputs.
 
+- **[gse2034-relapse-prediction](https://github.com/kavyamguru/gse2034-relapse-prediction)**
+  Breast cancer relapse classification on GEO GSE2034 (286 tumours, 22,215 probes), with
+  scaling and feature selection refit inside every cross-validation fold. Includes a
+  controlled experiment measuring how much the common shortcut — selecting features before
+  cross-validation — inflates reported performance: **+0.120 ROC-AUC**, enough to change
+  which model looks best.
+
 - **[LabHelpr](https://www.labhelpr.com/)** — live · [source](https://github.com/kavyamguru/labhelpr-app)
   Deployed web platform for wet-lab scientists: 13 experimental calculators, a statistics module
   with assumption checking, and an offline-capable electronic lab notebook.
